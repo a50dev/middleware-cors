@@ -4,8 +4,8 @@ declare(strict_types=1);
 
 namespace A50\Middleware\Cors;
 
-use Psr\Container\ContainerInterface;
 use A50\Container\ServiceProvider;
+use Psr\Container\ContainerInterface;
 
 final class CorsServiceProvider implements ServiceProvider
 {
